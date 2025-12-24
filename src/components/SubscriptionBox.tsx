@@ -7,7 +7,7 @@ const SubscriptionBox = () => {
         absolute
         left-1/2
         -translate-x-1/2
-        top-50
+        top-10
         z-30
 
         bg-[#F5F5F5]

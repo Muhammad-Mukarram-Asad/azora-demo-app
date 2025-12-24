@@ -1,8 +1,29 @@
-import dummyPerson from "../assets/images/dummy-person.png";
+import dummyPerson from "../assets/icons/video-man-image.svg";
+import videoPlayerIocn from "../assets/icons/video-player-icon.svg";
 
 const VideoStory = () => {
   return (
-    <section className="relative z-10 bg-[#7a5673]">
+    <section className="
+      absolute
+        left-1/2
+        -translate-x-1/2
+        top-[-300px]
+        z-30
+        bg-[#765070]
+        w-[90%]
+        max-w-5xl
+        h-[500px]
+        px-12
+        py-10
+        rounded-[20px]
+
+        flex
+        flex-col
+        gap-6
+        items-start
+        justify-center
+        shadow-xl
+    ">
       {/* Content Wrapper */}
       <div className="mx-auto max-w-7xl px-8 py-24">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2">
@@ -21,7 +42,7 @@ const VideoStory = () => {
             {/* Play Button */}
             <div className="mt-10">
               <button className="flex h-14 w-14 items-center justify-center rounded-full bg-white text-[#7a5673] shadow-lg">
-                ▶
+             <img src={videoPlayerIocn} width={24} height={24} alt="Play Icon" />
               </button>
             </div>
           </div>

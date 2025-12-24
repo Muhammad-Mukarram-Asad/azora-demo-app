@@ -1,4 +1,3 @@
-import React from "react";
 import journeyImage from "../assets/icons/setapp-journey.svg";
 
 const SetappJourney = () => {

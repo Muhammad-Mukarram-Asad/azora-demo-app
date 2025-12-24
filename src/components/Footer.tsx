@@ -1,5 +1,6 @@
 import navbarLogo from "../assets/icons/navbar_logo.svg";
-
+import twitterIcon from "../assets/icons/twitter_icon.svg";
+import instaIcon from "../assets/icons/instagram_icon.svg"
 export default function Footer() {
   return (
     <footer className="bg-[#2b2f33] text-white h-180 mt-100">
@@ -105,7 +106,12 @@ export default function Footer() {
 
             {/* Social placeholders */}
             <div className="flex gap-3">
-              <div className="h-6 w-6 rounded-full bg-gray-500/30" />
+                <img src={instaIcon} width={24} height={24} alt="Logo" />
+
+              <div className="h-6 w-6 rounded-full bg-gray-500/30">
+                <img src={twitterIcon} width={24} height={24} alt="Logo" />
+                </div>
+
               <div className="h-6 w-6 rounded-full bg-gray-500/30" />
               <div className="h-6 w-6 rounded-full bg-gray-500/30" />
             </div>
